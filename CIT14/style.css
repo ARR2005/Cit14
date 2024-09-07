@@ -1,10 +1,35 @@
 body{background-color: black;
-color: white;
-display: flex;
-align-content:justify;
+
 gap: 12px;
 }
-
+.header-container{
+    display: grid;
+    gap: 1px;
+}
+.box-container{
+    display: flex;
+    height: 300px;
+    width:300px
+    }
+#contact-container{
+    display:flex;
+}
+#flex-container{
+    display:flex;
+    width: 600px;
+    height: 600px;
+    align-content: space-between;
+}
+#Information{
+    display: flex;
+    color: azure;
+    font-size: larger;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Cruise{
+    color: aliceblue;
+}
 ul{
     list-style: none;
-}
+}       
