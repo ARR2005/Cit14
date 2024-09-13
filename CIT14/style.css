@@ -1,9 +1,13 @@
-#test{
-    display:block;
-    width: 300px;
-    height: 300px;
-    background-color:red;
-    align-content: start;
+body{
+    background-image: url(Background.jpg);
+}
+
+.contacts{
+    display:grid;
+    grid-template-columns: 40% 40% 40%;
+    overflow:auto;
+    background-color: bisque;
+    opacity: 30%;
 
 }
 
