@@ -1,0 +1,17 @@
+body{
+    background: radial-gradient(ellipse at top right, #181a1d, transparent),
+            radial-gradient(ellipse at bottom, #141313, transparent);
+}
+
+#Navigation_Bar{
+    display: flex;
+    justify-content: space-evenly;
+}
+nav{
+    color: white;
+    display: flex;
+    justify-items: center;
+    margin: auto;
+    gap: 30px;
+    font-size: 30px;
+}
